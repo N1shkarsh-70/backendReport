@@ -13,11 +13,7 @@ app.use(express.json())
 const allowedOrigins = [
 
     "http://localhost:5000",
-    "http://192.168.29.43:5000",
-    "http://192.168.29.124:5000",
-     "http://192.168.29.124:5001",
-    "http://82.29.162.1:3000",
-    "http://82.29.162.1:5000" // Local React App
+    "report-frontend-two.vercel.app"
     
   ];
   
