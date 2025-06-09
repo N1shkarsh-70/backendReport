@@ -13,8 +13,8 @@ app.use(express.json())
 const allowedOrigins = [
 
     "http://localhost:5000",
-    "report-frontend-two.vercel.app"
-    
+    "https://report-frontend-two.vercel.app",
+    "http://192.168.1.79:5000"
   ];
   
   app.use(
